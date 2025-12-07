@@ -30,10 +30,7 @@ connectDB();
 app.use('/api/auth', authRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 
-// Default dashboard response
-app.get('/api/dashboard', (req, res) => {
-    res.send('Welcome to the dashboard!');
-});
+
 
 // Start server
 app.listen(PORT, () => {

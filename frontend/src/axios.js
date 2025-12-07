@@ -1,7 +1,6 @@
 import axios from "axios";
-
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://hubcredo-r4h9.onrender.com/api", // Render backend URL
 });
 
 // attach token
